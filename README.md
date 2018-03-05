@@ -4,9 +4,9 @@
 This is a very simple plugin that adds several functions and a menu allowing the user to easily compile or run the current file.
 
 #### The functions:
-1. cdFileDir(): This function changes the current directory to the location of the file in the current buffer.
-1. JavaCompile(): This function runs cdFileDir and then asynchronously executes javac to compile the file in the current buffer.
-1. JavaRun(): This function rund cdFileDir and then asynchronously executes java to run the compiled version of the file in the current buffer.
+1. cdFileDir(): This function changes the current directory to the location of the file in the current buffer. This function is run by the subsequent functions.
+1. JavaCompile(): This function asynchronously executes javac to compile the file in the current buffer.
+1. JavaRun(): This function asynchronously executes java to run the compiled version of the file in the current buffer.
 
 #### The menu:
   - Alt-C opens the Cafe menu
@@ -16,7 +16,7 @@ This is a very simple plugin that adds several functions and a menu allowing the
     - 'r' runs JavaRun()
 
 #### Installation:
-Clone into your ~/.vim/pack (%USERPROFILE%\vimfiles on windows) directory (create the pack directoty if it doesn't already exist).
+Clone into your ~/.vim/pack (%USERPROFILE%\vimfiles\pack on windows) directory (create the pack directoty if it doesn't already exist).
 
 Cafe.vim only supports Vim 8 or later (for asynchronous execution).
 Cafe.vim currently only supports Windows, but macOS and Linux support are expected.
