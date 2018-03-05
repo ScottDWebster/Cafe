@@ -15,5 +15,8 @@ This is a very simple plugin that adds several functions and a menu allowing the
     - 'c' runs JavaCompile()
     - 'r' runs JavaRun()
 
+#### Installation:
+Clone into your ~/.vim/pack (%USERPROFILE%\vimfiles on windows) directory
+
 Cafe.vim only supports Vim 8 or later (for asynchronous execution).
 Cafe.vim currently only supports Windows, but macOS and Linux support are expected.
