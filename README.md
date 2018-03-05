@@ -1,4 +1,4 @@
-# Cafe.vim
+# Cafe
 ### A simple vim plugin for compiling and running Java code
 
 This is a very simple plugin that adds several functions and a menu allowing the user to easily compile or run the current file.
