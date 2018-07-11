@@ -19,4 +19,5 @@ This is a very simple plugin that adds several functions and a menu allowing the
 Clone into your ~/.vim/pack (%USERPROFILE%\vimfiles\pack on windows) directory (create the pack directoty if it doesn't already exist).
 
 Cafe.vim only supports Vim 8 or later (for asynchronous execution).
-Cafe.vim currently only supports Windows as it makes use of a Windos only feature.  I hope to find a way to accomplish the same thing in a cross-platform manner in the future.
+
+Cafe.vim currently only supports Windows as it makes use of a Windows only feature.  I hope to find a way to accomplish the same thing in a cross-platform manner in the future.
