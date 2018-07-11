@@ -1,5 +1,5 @@
 # Cafe
-### A simple vim plugin for compiling and running Java code
+### A simple vim plugin for compiling and running Java code on Windows
 
 This is a very simple plugin that adds several functions and a menu allowing the user to easily compile or run the current file.
 
@@ -19,4 +19,4 @@ This is a very simple plugin that adds several functions and a menu allowing the
 Clone into your ~/.vim/pack (%USERPROFILE%\vimfiles\pack on windows) directory (create the pack directoty if it doesn't already exist).
 
 Cafe.vim only supports Vim 8 or later (for asynchronous execution).
-Cafe.vim currently only supports Windows, but macOS and Linux support are expected.
+Cafe.vim currently only supports Windows as it makes use of a Windos only feature.  I hope to find a way to accomplish the same thing in a cross-platform manner in the future.
